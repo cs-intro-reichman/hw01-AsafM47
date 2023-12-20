@@ -4,6 +4,9 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+ 		int amount = Integer.parseInt(args[0]);
+        int quarters = amount / 25 ; //the amount of quartes this number can be divided to 
+        int cents = amount % 25; //the amount of cents left 
+        System.out.println("Use " + quarters + " quarters and "+ cents + " cents");
 	}
 }
