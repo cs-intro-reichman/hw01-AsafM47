@@ -13,7 +13,7 @@ public class Triangle {
             System.out.println(a+", "+ b + ", " + c + ": true");
         }
         else { 
-            System.out.println(a+", "+ b + ", " + c + " : False");
+            System.out.println(a+", "+ b + ", " + c + ": false");
         }	
     }
 }
